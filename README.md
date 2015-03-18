@@ -14,14 +14,13 @@ Doctrine DBAL integration for Laravel
 
 Via [Composer](https://getcomposer.org)
 
-1. Run following command:
-
+* Run following command:
 ```bash
 composer require nayjest/laravel-doctrine-dbal
 ```
-2. Register Nayjest\LaravelDoctrineDBAL\ServiceProvider in your application configuration file
+* Register Nayjest\LaravelDoctrineDBAL\ServiceProvider in your application configuration file
 
-3. Add facade alias:
+* Add facade alias:
 
 ```php
     'DBAL' => 'Nayjest\LaravelDoctrineDBAL\Facade',
