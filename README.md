@@ -3,6 +3,13 @@ Laravel_DoctrineDBAL
 
 Doctrine DBAL integration for Laravel
 
+## Overview
+
+`nayjest/laravel-doctrine-dbal` package provides:
+* **Doctrine DBAL connection** based on your default Laravel DB connection, initialized by same PDO connection object
+* **Facade** for default Doctrine DBAL connection
+* **SQL Queries Logging setup**. Queries executed via Doctrine DBAL will be present in DB::getQueryLog() and "Queries" tab of `barryvdh/laravel-debugbar`
+
 ## Installation
 
 Via [Composer](https://getcomposer.org)
