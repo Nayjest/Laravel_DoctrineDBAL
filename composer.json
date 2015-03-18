@@ -3,6 +3,7 @@
   "description": "Doctrine DBAL integration for Laravel",
   "require": {
     "doctrine/dbal": "~2.5",
+    "illuminate/database": "*",
     "illuminate/support": "*"
   },
   "require-dev": {

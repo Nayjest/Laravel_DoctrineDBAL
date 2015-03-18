@@ -7,7 +7,7 @@ Doctrine DBAL integration for Laravel
 
 `nayjest/laravel-doctrine-dbal` package provides:
 * **Doctrine DBAL connection** based on your default Laravel DB connection, initialized by same PDO connection object
-* **Facade** for default Doctrine DBAL connection and automatically created **alias**
+* **Facade** for default Doctrine DBAL connection
 * **SQL Queries Logging setup**. Queries executed via Doctrine DBAL will be present in DB::getQueryLog() and "Queries" tab of `barryvdh/laravel-debugbar`
 
 ## Installation
@@ -20,6 +20,12 @@ Via [Composer](https://getcomposer.org)
 composer require nayjest/laravel-doctrine-dbal
 ```
 2. Register Nayjest\LaravelDoctrineDBAL\ServiceProvider in your application configuration file
+
+3. Add facade alias:
+
+```php
+    'DBAL' => 'Nayjest\LaravelDoctrineDBAL\Facade',
+```
 
 ## Testing
 
