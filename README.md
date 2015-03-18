@@ -34,7 +34,7 @@ Run following command:
 phpunit
 ```
 
-## 6. License
+## License
 
 © 2014 — 2015 Vitalii Stepanenko
 
